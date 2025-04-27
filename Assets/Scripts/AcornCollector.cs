@@ -7,6 +7,7 @@ public class AcornCollector : MonoBehaviour
     public int acornsCollected = 0;
     public int acornsNeeded = 5;
     public GameObject door; // Assign the door GameObject in the Inspector
+    
 
     private bool doorOpened = false;
 
@@ -29,6 +30,8 @@ public class AcornCollector : MonoBehaviour
         doorOpened = true;
         // Example action: Disable the door (make it disappear)
         door.SetActive(false);
+
+      
 
         // You can replace this with an animation, sound, etc.
         Debug.Log("Door opened!");
