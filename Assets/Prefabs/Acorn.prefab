@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7011148172073447795}
   - component: {fileID: 3412584211357060958}
+  - component: {fileID: 6719883062528852509}
   m_Layer: 0
   m_Name: Acorn
   m_TagString: Untagged
@@ -54,6 +55,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.39, y: 0.5, z: 0.38}
   m_Center: {x: -1.38, y: -0.64, z: 0.46}
+--- !u!114 &6719883062528852509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3043359345416693504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9c88ffbf989cd439cc274200292548, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &811662813367550425
 PrefabInstance:
   m_ObjectHideFlags: 0
