@@ -13,6 +13,8 @@ public class PauseMenuScript : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1f;
+        PauseMenuCanvas.SetActive(false);
+        Paused = false;
     }
 
     // Update is called once per frame
@@ -30,6 +32,11 @@ public class PauseMenuScript : MonoBehaviour
             }
 
         }
+        if (Paused && Input.GetKeyDown(KeyCode.M))
+        {
+            MainMenuButton();
+        }
+       
     }
 
     void Stop()
