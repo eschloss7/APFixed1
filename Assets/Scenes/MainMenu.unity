@@ -529,6 +529,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 024317accd0a43d4d9d765806507b1c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playButton: {fileID: 2019310965}
+  quitButton: {fileID: 571447021}
 --- !u!1 &594830473
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,7 +752,7 @@ GameObject:
   - component: {fileID: 1727532011}
   - component: {fileID: 1727532010}
   m_Layer: 0
-  m_Name: Title
+  m_Name: Acorn Potluck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
